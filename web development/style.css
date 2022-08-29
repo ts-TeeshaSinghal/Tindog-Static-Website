@@ -1,0 +1,181 @@
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+/* title section */
+.brand-logo{
+  border-radius: 100%;
+  height: 100px;
+}
+#title
+{
+    background-color:#ff4c68;
+
+
+}
+.nav-item{
+    font-weight: 600;
+
+    padding: 0 18px;
+}
+.dog-img{
+    height: 70vh;
+    border-radius: 50%;
+transform: rotate(30deg);
+    position: absolute;
+margin-left: 20px;
+
+}
+.main-heading{
+  font-size: 3rem;
+font-weight: bolder;
+font-family:  'Montserrat', sans-serif;
+color: #fff;
+    line-height: 1.3;
+}
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.btn{
+    margin-top: 30px;
+}
+.nav-link{
+    color: #fff;
+    font-size: 20px;
+}
+#features{
+  background-color: #fff;
+padding: 7% 15%;
+position: relative;
+z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ff8173;
+  margin-bottom: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+/*testimonials section */
+#testimonials{
+
+  text-align: center;
+  background-color: #ff8173;
+  color: #fff;
+}
+h2{
+  font-family: monospace;
+  font-weight: bold;
+}
+.testimonials-img{
+  border-radius: 100%;
+  width: 15%;
+margin-top: 20px;
+
+}
+#press{
+  background-color:#ff8173;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  padding: 5px;
+  border-radius: 30%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.card-deck{
+display: flex;
+
+
+}
+/* pricing section */
+#pricing{
+  padding: 80px;
+  background-color: #F1F1F1;
+}
+.card-col{
+  padding: 40px;
+}
+.card{
+  text-align: center;
+
+
+}
+.pricing-heading
+{
+text-align: center;
+font-size: 50px
+  }
+.pricing-content{
+  text-align: center;
+
+}
+
+/* cta section */
+.ctn-heading{
+  color: #fff;
+  font-size: 40px;
+  font-family: "Oswald";
+}
+#cta{
+  background-color:#A6D1E6;
+  text-align: center;
+  padding:80px;
+}
+/* footer section */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.footer-icon{
+  margin: 20px;
+  font-size: 20px;
+
+}
+.footer-icon:hover{
+  font-size: 25px;
+}
+/* Responsive part */
+
+@media (max-width:990px) {
+
+.main-heading{
+  font-size: 2.5rem;
+}
+.dog-img{
+  position: static;
+  height: 60vh;
+  margin-top: 10px;
+  transform: rotate(0);
+
+}
+.btn{
+font-size: 15px;
+}
+ #title{
+text-align: center;
+  }
+
+}
